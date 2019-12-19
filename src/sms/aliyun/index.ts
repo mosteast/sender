@@ -1,1 +1,1 @@
-export * from './aliyun_send'
+export {Sms as Sms_aliyun} from './sms'
