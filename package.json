@@ -18,7 +18,11 @@
   },
   "author": "Mosteast team",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.9",
+    "@mosteast/base-error": "^0.1.6",
+    "aws-sdk": "^2.592.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^11.15.3",
