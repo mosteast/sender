@@ -1,2 +1,2 @@
-export { Email as Email_aws } from './email'
+export { Email as Email_mailgun } from './email'
 
