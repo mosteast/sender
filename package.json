@@ -21,11 +21,13 @@
   "dependencies": {
     "@alicloud/pop-core": "^1.7.9",
     "@mosteast/base-error": "^0.1.6",
-    "aws-sdk": "^2.592.0"
+    "aws-sdk": "^2.592.0",
+    "mailgun-js": "^0.22.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^11.15.3",
+    "@types/mailgun-js": "^0.22.3",
     "jest": "^24.9.0",
     "shelljs": "^0.8.3",
     "ts-jest": "^24.2.0",
