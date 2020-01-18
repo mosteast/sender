@@ -12,9 +12,7 @@
   ],
   "scripts": {
     "test": "npx jest --coverage",
-    "build": "./bin/build",
-    "release": "npm version patch && npm publish --access public",
-    "build_and_release": "npm run build && npm run release"
+    "build": "./bin/build"
   },
   "author": "Mosteast team",
   "license": "ISC",
