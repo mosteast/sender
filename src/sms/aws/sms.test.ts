@@ -1,11 +1,11 @@
-import { Sms } from './sms'
+import { Sms } from './sms';
 
 it('should send sms', async (done) => {
-  const e = process.env
-  const sms = new Sms({ accessKeyId: e.key, secretAccessKey: e.secret, region: 'us-east-1' })
+  const e = process.env;
+  const sms = new Sms({ accessKeyId: e.key, secretAccessKey: e.secret, region: 'us-east-1' });
   await sms.send('86', 'xxx', 'yo yo yo')
-    .catch(console.log)
-    .then(console.log)
+           .catch(console.log)
+           .then(console.log);
 
-  done()
-})
+  done();
+});
