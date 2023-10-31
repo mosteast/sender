@@ -1,6 +1,6 @@
 {
   "name": "@mosteast/sender",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "xxx",
   "homepage": "https://github.com/mosteast/sender.git",
   "repository": "github:xxx/xxx",
@@ -34,7 +34,6 @@
     "@alicloud/pop-core": "^1.7.10",
     "@aws-sdk/client-ses": "^3.438.0",
     "@aws-sdk/client-sns": "^3.438.0",
-    "@mosteast/base-error": "^0.1.6",
     "@mosteast/common_eid": "^0.2.0",
     "@mosteast/e": "^0.2.2",
     "lodash-es": "^4.17.21",
