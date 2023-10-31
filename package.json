@@ -31,13 +31,19 @@
     "test": "NODE_ENV=test npx vitest"
   },
   "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "@aws-sdk/client-ses": "^3.438.0",
+    "@aws-sdk/client-sns": "^3.438.0",
+    "@mosteast/base-error": "^0.1.6",
     "@mosteast/common_eid": "^0.2.0",
     "@mosteast/e": "^0.2.2",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "mailgun-js": "^0.22.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.3",
     "@types/lodash-es": "^4.17.10",
+    "@types/mailgun-js": "^0.22.16",
     "@types/node": "^20.8.9",
     "@types/shelljs": "^0.8.14",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
