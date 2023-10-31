@@ -1,8 +1,8 @@
 {
-  "name": "@mosteast/xxx",
-  "version": "0.0.1",
+  "name": "@mosteast/sender",
+  "version": "0.0.8",
   "description": "xxx",
-  "homepage": "https://github.com/xxx/xxx#readme",
+  "homepage": "https://github.com/mosteast/sender.git",
   "repository": "github:xxx/xxx",
   "license": "ISC",
   "author": "Mosteast team",
